@@ -1,4 +1,4 @@
-# main.py
+# src/action_example/main.py
 from __future__ import annotations
 
 from typing import Iterable, List, TypeVar
@@ -7,10 +7,7 @@ T = TypeVar("T")
 
 
 def quick_sort(items: Iterable[T]) -> List[T]:
-    """
-    Return a new sorted list using quicksort (not in-place).
-    Works for items that support < and == comparisons.
-    """
+    """Return a new sorted list using quicksort (not in-place)."""
     arr = list(items)
     if len(arr) < 2:
         return arr

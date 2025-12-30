@@ -1,7 +1,5 @@
-# tests/test_main.py
 import pytest
-
-from main import quick_sort
+from action-example import quick_sort
 
 
 @pytest.mark.parametrize(
